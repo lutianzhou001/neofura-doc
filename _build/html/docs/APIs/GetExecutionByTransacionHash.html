@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>&lt;no title&gt; &mdash; JJToken 1.0 documentation</title>
+  <title>GetExecutionByTransactionHash &mdash; neo3phora-doc 1.0 documentation</title>
   
 
   
@@ -40,9 +40,7 @@
 
     
     <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="&lt;no title&gt;" href="GetNep17TransferByContractHash.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="GetExecutionByTrigger.html" /> 
+    <link rel="search" title="Search" href="../../search.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -56,7 +54,7 @@
           
 
           
-            <a href="../../index.html" class="icon icon-home"> JJToken
+            <a href="../../index.html" class="icon icon-home"> neo3phora-doc
           
 
           
@@ -105,7 +103,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../../index.html">JJToken</a>
+          <a href="../../index.html">neo3phora-doc</a>
         
       </nav>
 
@@ -138,15 +136,13 @@
     
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-          <li><a href="index.html">API Docs</a> &raquo;</li>
-        
-      <li>&lt;no title&gt;</li>
+      <li>GetExecutionByTransactionHash</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../../_sources/docs/APIs/GetExecutionByContractHash.md.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/docs/APIs/GetExecutionByTransacionHash.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -159,16 +155,35 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  
+  <div class="section" id="getexecutionbytransactionhash">
+<h1>GetExecutionByTransactionHash<a class="headerlink" href="#getexecutionbytransactionhash" title="Permalink to this headline">¶</a></h1>
+<p>To execution message by transaction hash</p>
+<div class="section" id="input">
+<h2>input<a class="headerlink" href="#input" title="Permalink to this headline">¶</a></h2>
+<p>| 输入参数         | 参数含义       | 类型    | 是否必须  |
+| —————- | ————– | ——- |——   |
+| TransactionHash    | 交易hash      | string  | 是|</p>
+</div>
+<div class="section" id="output">
+<h2>output<a class="headerlink" href="#output" title="Permalink to this headline">¶</a></h2>
+<p>// TODO</p>
+</div>
+<div class="section" id="example">
+<h2>example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<p>curl –location –request POST ‘127.0.0.1:1926’ <br />–header ‘Content-Type: application/json’ <br />–data-raw ‘{
+“jsonrpc”: “2.0”,
+“id”: 1,
+“params”: {“TransactionHash”:”0x0000000000000000000000000000000000000000000000000000000000000000”},
+“method”: “GetExecutionByTransactionHash”
+}’</p>
+</div>
+</div>
+
 
            </div>
            
           </div>
           <footer>
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="GetNep17TransferByContractHash.html" class="btn btn-neutral float-right" title="&lt;no title&gt;" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="GetExecutionByTrigger.html" class="btn btn-neutral float-left" title="&lt;no title&gt;" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-    </div>
 
   <hr/>
 

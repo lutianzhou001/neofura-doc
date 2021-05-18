@@ -1,4 +1,4 @@
-* ## GetNep17TransferByTransactionHash
+## GetNep17TransferByTransactionHash
 
 To get the Nep17Transfer message by transactionhash
 

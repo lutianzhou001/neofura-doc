@@ -21,7 +21,7 @@ from recommonmark.transform import AutoStructify
 from recommonmark.parser import CommonMarkParser
 # -- Project information -----------------------------------------------------
 
-project = u'JJToken'
+project = u'neo3phora-doc'
 copyright = u'2020, vincent'
 author = u'vincent'
 
@@ -40,7 +40,7 @@ release = u'1.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark','sphinx_markdown_tables']
+extensions = ['recommonmark']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

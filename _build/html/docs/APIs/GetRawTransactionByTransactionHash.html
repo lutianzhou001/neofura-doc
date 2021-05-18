@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>&lt;no title&gt; &mdash; JJToken 1.0 documentation</title>
+  <title>GetRawTransactionByTransactionHash &mdash; neo3phora-doc 1.0 documentation</title>
   
 
   
@@ -41,7 +41,7 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="GetRawTransactionBySender.html" /> 
+    <link rel="prev" title="GetRawTransactionBySender" href="GetRawTransactionBySender.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -55,7 +55,7 @@
           
 
           
-            <a href="../../index.html" class="icon icon-home"> JJToken
+            <a href="../../index.html" class="icon icon-home"> neo3phora-doc
           
 
           
@@ -86,9 +86,33 @@
               
             
             
-              <ul>
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="index.html">API Docs</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">API Docs</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="GetAssetHoldersByContractHash.html">GetAssetHoldersByContractHash</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetAssetInfoByContractHash.html">GetAssetInfoByContractHash</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetAssetsHeldByAddress.html">GetAssetHeldByAddress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetBalanceByContractHashAddress.html">GetBalanceByContractHashAddress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetBestBlockHash.html">GetBestBlockHash</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetBlockByBlockHash.html">GetBlockByBlockHash</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetBlockByBlockHeight.html">GetBlockByBlockHeight</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetBlockCount.html">GetBlockCount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetBlockHashByBlockHeight.html">GetBlockHashByBlockHeight</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetBlockHeaderByBlockHash.html">GetBlockHeaderByBlockHash</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetExecutionByBlockHash.html">GetExecutionByBlockHash</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetExecutionByTrigger.html">GetExecutionByTrigger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetNep17TransferByContractHash.html">GetNep17TransferByContractHash</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetNep17TransferByTransactionHash.html">GetNep17TransferByTransactionHash</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetNotificationByContractHash.html">## GetNotificationByContractHash</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GetRawTransactionBySender.html">GetRawTransactionBySender</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">GetRawTransactionByTransactionHash</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#input">input</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#output">output</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#example">example</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
             
@@ -104,7 +128,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../../index.html">JJToken</a>
+          <a href="../../index.html">neo3phora-doc</a>
         
       </nav>
 
@@ -139,7 +163,7 @@
         
           <li><a href="index.html">API Docs</a> &raquo;</li>
         
-      <li>&lt;no title&gt;</li>
+      <li>GetRawTransactionByTransactionHash</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -158,14 +182,37 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  
+  <div class="section" id="getrawtransactionbytransactionhash">
+<h1>GetRawTransactionByTransactionHash<a class="headerlink" href="#getrawtransactionbytransactionhash" title="Permalink to this headline">¶</a></h1>
+<p>To get raw transaction by transaction hash</p>
+<div class="section" id="input">
+<h2>input<a class="headerlink" href="#input" title="Permalink to this headline">¶</a></h2>
+<p>| 输入参数         | 参数含义       | 类型    | 是否必须  |
+| —————- | ————– | ——- |——   |
+| TransactionHash    |交易hash       | string  | 是|</p>
+</div>
+<div class="section" id="output">
+<h2>output<a class="headerlink" href="#output" title="Permalink to this headline">¶</a></h2>
+<p>// TODO</p>
+</div>
+<div class="section" id="example">
+<h2>example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<p>curl –location –request POST ‘127.0.0.1:1926’ <br />–header ‘Content-Type: application/json’ <br />–data-raw ‘{
+“jsonrpc”: “2.0”,
+“id”: 1,
+“params”: {“TransactionHash”:”0x407aff767b88a9acf559bd292d0d3a484a255582868ec1dca11f86131bd4d1f0”},
+“method”: “GetRawTransactionByTransactionHash”
+}’</p>
+</div>
+</div>
+
 
            </div>
            
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="GetRawTransactionBySender.html" class="btn btn-neutral float-left" title="&lt;no title&gt;" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="GetRawTransactionBySender.html" class="btn btn-neutral float-left" title="GetRawTransactionBySender" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

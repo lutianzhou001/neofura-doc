@@ -19,7 +19,7 @@ All APIs will be displayed here
    GetBlockHeaderByBlockHash.md
    GetExecutionByBlockHash.md
    GetExecutionByTrigger.md
-   GetExecutionByContractHash.md
+   GetExecutionByTransactionHash.md
    GetNep17TransferByContractHash.md
    GetNep17TransferByTransactionHash.md
    GetNotificationByContractHash.md
