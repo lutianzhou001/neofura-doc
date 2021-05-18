@@ -11,10 +11,7 @@ Welcome to JJToken's documentation!
    :maxdepth: 1
 
    docs/introduction.md
-   docs/flowcharts/index.rst
-   docs/general/index.rst
-   docs/contracts/index.rst
-   docs/JJ-Bridge/index.rst
+   docs/APIs/index.rst
 
 Indices and tables
 ==================
