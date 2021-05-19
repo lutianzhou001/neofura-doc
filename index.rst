@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to neo3phora-doc's documentation!
+Welcome to neo3fura-doc's documentation!
 =================================
 
 .. toctree::

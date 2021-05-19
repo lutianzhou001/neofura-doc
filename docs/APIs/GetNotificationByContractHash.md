@@ -1,4 +1,4 @@
-## ## GetNotificationByContractHash
+## GetNotificationByContractHash
 
 To get notification by contract hash
 
