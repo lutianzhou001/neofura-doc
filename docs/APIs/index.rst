@@ -25,6 +25,11 @@ All APIs will be displayed here
    GetNotificationByContractHash.md
    GetRawTransactionBySender.md
    GetRawTransactionByTransactionHash.md
+   GetContractByContractHash.md
+   GetRawTransactionByBlockHeight.md
+   GetNotificationByEvent.md
+   GetAssetInfoByTokenName.md
+   GetRawTransactionByBlockHash.md
 
 
 
