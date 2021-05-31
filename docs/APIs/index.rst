@@ -22,14 +22,13 @@ All APIs will be displayed here
    GetExecutionByTransactionHash.md
    GetNep17TransferByContractHash.md
    GetNep17TransferByTransactionHash.md
+   GetNep17TransferByAddress.md
    GetNotificationByContractHash.md
    GetRawTransactionBySender.md
    GetRawTransactionByTransactionHash.md
-   GetContractByContractHash.md
+   GetRawTransactionByBlockHash.md
    GetRawTransactionByBlockHeight.md
+   GetContractByContractHash.md
    GetNotificationByEvent.md
    GetAssetInfoByTokenName.md
-   GetRawTransactionByBlockHash.md
-
-
 
