@@ -8,7 +8,7 @@ To get Nep11Balance(NFT) By ContractHash and address and tokenId
 | ---------------- | -------------- | ------- |------   |
 | ContractHash | 合约Hash | string  | 是|
 | Address | 地址 | string | 是 |
-| TokenId | tokenId | string | 是 ｜
+| TokenId | tokenId | string | 是|
 | Limit | 限制 | int | 否 |
 | Skip | 跳过 | int | 否 |
 
