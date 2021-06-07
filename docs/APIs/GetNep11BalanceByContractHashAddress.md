@@ -1,6 +1,6 @@
 ## GetNep11BalanceByContractHashAddress
 
-To get Nep11Balance(NFT) By ContractHash And Address
+To get Nep11Balance(NFT) By ContractHash and address
 
 ### input
 
@@ -17,19 +17,12 @@ To get Nep11Balance(NFT) By ContractHash And Address
 
 ### example
 
-curl --location --request POST '127.0.0.1:1926' \
-
+curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
-
 --data-raw '{
-
   "jsonrpc": "2.0",
-
   "method": "GetNep11BalanceByContractHashAddress",
-
-  "params": {"ContractHash": "0x3a2bb471a07cc7c22e7ff30462287136799aa4f5","Address":"0x08f458ba9393d5f4353d1401876ae011f08075f0","Limit":1,"Skip":0},
-
+  "params": {"ContractHash": "0x3a2bb471a07cc7c22e7ff30462287136799aa4f5","Address":"0x08f458ba9393d5f4353d1401876ae011f08075f0","Limit":3,"Skip":1},
   "id": 1
-
 }'
 

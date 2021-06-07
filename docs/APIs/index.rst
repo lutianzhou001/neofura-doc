@@ -34,5 +34,5 @@ All APIs will be displayed here
    GetNep11BalanceByContractHashAddress.md
    GetNep11TransferByAddress.md
    GetNep11TransferByTransactionHash.md
-
+   GetNep11BalanceByContractHashAddressTokenId.md
 
