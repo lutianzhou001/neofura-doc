@@ -31,4 +31,8 @@ All APIs will be displayed here
    GetContractByContractHash.md
    GetNotificationByEvent.md
    GetAssetInfoByTokenName.md
+   GetNep11BalanceByContractHashAddress.md
+   GetNep11TransferByAddress.md
+   GetNep11TransferByTransactionHash.md
+
 
