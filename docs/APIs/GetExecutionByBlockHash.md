@@ -14,7 +14,7 @@ To get execution message of a block by the input of blockhash
 // TODO
 
 ### example
-
+```
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -23,5 +23,6 @@ curl --location --request POST '127.0.0.1:1926' \
     "params": {"BlockHash":"0xaa15bf961c577a9ee9a62774d12d74c6978a03ac782508f93f24aeee452387ff"},
     "method": "GetExecutionByBlockHash"
 }'
+```
 
 

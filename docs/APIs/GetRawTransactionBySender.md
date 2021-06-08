@@ -15,7 +15,7 @@ To get raw transaction by sender
 // TODO
 
 ### example
-
+```
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -24,6 +24,6 @@ curl --location --request POST '127.0.0.1:1926' \
     "params": {"Sender":"Nd29sK8Wnri8HAAW2vD2APFP8SJJEu3pS4"},
     "method": "GetRawTransactionBySender"
 }'
-
+```
 
 

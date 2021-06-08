@@ -16,7 +16,7 @@ To execution messgae of the trigger
 // TODO
 
 ### example
-
+```
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -25,4 +25,4 @@ curl --location --request POST '127.0.0.1:1926' \
     "params": {"Trigger":"System"},
     "method": "GetExecutionByTrigger"
 }'
-
+```

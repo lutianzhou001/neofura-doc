@@ -15,6 +15,7 @@ To get the Nep17Transfer message by transactionhash
 
 ### example
 
+```
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -23,4 +24,5 @@ curl --location --request POST '127.0.0.1:1926' \
     "params": {"TransactionHash":"0xeb21ed656bb685d4acf8a9865e6f1b76be47e5569ade72c5224761c58cc2d881"},
     "method": "GetNep17TransferByTransactionHash"
 }'
+```
 
