@@ -14,13 +14,15 @@ To get the best(latest) block hash
 
 ### example
 
-{
-    "id": 1,
-    "result": {
-        "hash": "0xa59b65d6e3144c41c4082154a2824683acfbfb25976bf99c9a7815c78ae676d7"
-    },
-    "error": null
-}
-
+```
+curl --location --request POST 'http://127.0.0.1:1926' \
+--header 'Content-Type: application/json' \
+--data-raw '{  
+  "jsonrpc": "2.0",
+  "method": "GetBestBlockHash",
+  "params": {},
+  "id": 1
+}'
+```
 
 

@@ -13,6 +13,7 @@ To get blockhash by the input of block number
 // TODO
 
 ### example
+```
 
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
@@ -22,5 +23,6 @@ curl --location --request POST '127.0.0.1:1926' \
     "params": {"BlockHeight":3823},
     "method": "GetBlockHashByBlockHeight"
 }'
+```
 
 

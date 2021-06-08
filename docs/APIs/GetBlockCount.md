@@ -13,6 +13,7 @@ To get blockcount(newest block number)
 // TODO
 
 ### example
+```
 
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
@@ -22,6 +23,7 @@ curl --location --request POST '127.0.0.1:1926' \
     "params": {},
     "method": "GetBlockCount"
 }'
+```
 
 
 

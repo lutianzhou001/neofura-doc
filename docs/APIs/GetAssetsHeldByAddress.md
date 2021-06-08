@@ -16,6 +16,8 @@ To get asset holders by contract hash
 
 ### example
 
+
+```
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -24,5 +26,6 @@ curl --location --request POST '127.0.0.1:1926' \
     "params": {"Address":"0x3555537a8d50d0a7738a42ae605f86708e73d0ac"},
     "method": "GetAssetsHeldByAddress"
 }'
+```
 
 

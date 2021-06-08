@@ -15,6 +15,8 @@ To get a certain block by the blockheight(index)
 
 ### example
 
+```
+
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -23,5 +25,6 @@ curl --location --request POST '127.0.0.1:1926' \
     "params": {"BlockHeight":3823},
     "method": "GetBlockByBlockHeight"
 }'
+```
 
 
