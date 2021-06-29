@@ -35,4 +35,12 @@ All APIs will be displayed here
    GetNep11TransferByAddress.md
    GetNep11TransferByTransactionHash.md
    GetNep11BalanceByContractHashAddressTokenId.md
+   GetScCallByTransactionHash.md
+   GetScVoteCallByTransactionHash.md
+   GetScCallByContractHash.md
+   GetScVoteCallByVoterAddress.md
+   GetScVoteCallByCandidateAddress.md
+   GetCandidateByVoterAddress.md
+   GetVotersByCandidateAddress.md
+   GetVotesByCandidateAddress.md
 
