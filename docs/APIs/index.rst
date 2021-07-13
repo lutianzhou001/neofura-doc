@@ -43,4 +43,9 @@ All APIs will be displayed here
    GetCandidateByVoterAddress.md
    GetVotersByCandidateAddress.md
    GetVotesByCandidateAddress.md
+   GetRawMemPool.md
+   GetNetFeeRange.md
+   GetNep11OwnedByAddress.md
+   GetNep11OwnedByContractHashAddress.md
+   GetScCallByContractHashAddress.md
 
