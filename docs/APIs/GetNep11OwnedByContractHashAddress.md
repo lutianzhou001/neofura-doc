@@ -7,7 +7,7 @@ To GetNep11Owned by an address in a certain contracthash
 | 输入参数         | 参数含义       | 类型    | 是否必须  |
 | ---------------- | -------------- | ------- |------   |
 | ContractHash    | 合约地址       | string  | 是|
-| Address    | 用户地址地址       | string  | 是|
+| Address    | 用户地址       | string  | 是|
 
 
 ### output

@@ -1,6 +1,6 @@
-## GetNetFeeRange
+## GetNep11OwnedByAddress
 
-To get the netfee range
+To get the Nep11 owned by address
 
 ### input
 
