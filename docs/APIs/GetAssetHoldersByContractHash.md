@@ -1,20 +1,16 @@
 ## GetAssetHoldersByContractHash
 
-To get asset holders by contract hash
+Gets asset holders by the contract hash.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
+| Parameter         | Type      | Description    |   |
 | ---------------- | -------------- | ------- |------   |
-| ContractHash    | 合约地址       | string  | 是|
-| Limit     | Limit         | int  |否  |
-| Skip |Skip | itn |否 |
+| ContractHash    | string      | The contract script hash  | |
+| Limit     | int         | Limit  |Optional  |
+| Skip |itn | Skip |Optional |
 
-### output
-
-// TODO
-
-### example
+### Example
 
 ```shell
 curl --location --request POST '127.0.0.1:1926' \
@@ -27,4 +23,7 @@ curl --location --request POST '127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO
 
