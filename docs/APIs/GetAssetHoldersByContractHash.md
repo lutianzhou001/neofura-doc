@@ -4,9 +4,9 @@ Gets asset holders by the contract hash.
 
 ### Parameters
 
-| Parameter         | Type      | Description    |   |
+| Name         | Type      | Description    |   |
 | ---------------- | -------------- | ------- |------   |
-| ContractHash    | string      | The contract script hash  | |
+| ContractHash    | string      | The contract script hash  |Required |
 | Limit     | int         | Limit  |Optional  |
 | Skip |itn | Skip |Optional |
 
