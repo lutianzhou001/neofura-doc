@@ -1,21 +1,17 @@
 ## GetNotificationByContractHash
 
-To get notification by contract hash
+ Gets the notification by the contract hash
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| ContractHash    | 合约地址       | string  | 是|
-| Limit     | Limit         | int  |否  |
-| Skip |Skip | itn |否 |
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| ContractHash    | string | The contract script hash |
+| Limit     | int      | Limit. It is optional |
+| Skip |itn |Skip. It is optional |
 
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -26,3 +22,6 @@ curl --location --request POST '127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO

@@ -1,18 +1,18 @@
 ## GetScCallByTransactionHash
 
-To get the ScCall by TransactionHash
+ Gets the ScCall by TransactionHash
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
+| Name         | Description       | Type    |    |
 | ---------------- | -------------- | ------- |------   |
 | TransactionHash | 交易哈希  | string  | 是|
 
-### output
+### Output
 
 // TODO
 
-### example
+### Example
 ```
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \

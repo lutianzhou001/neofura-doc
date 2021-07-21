@@ -1,20 +1,16 @@
 ## GetRawTransactionByBlockHash
 
-To RawTransaction by BlockHash
+Gets RawTransaction by BlockHash
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| BlockHash |区块hash       | string | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| BlockHash |string       |The block hash       |
 
-### output
+### Example
 
-// TODO
-
-### example
-
-```
+```shell
 curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -25,5 +21,7 @@ curl --location --request POST 'http://127.0.0.1:1926' \
 }'
 ```
 
+### Output
 
+// TODO
 

@@ -1,21 +1,16 @@
 ## GetBlockByBlockHash
 
-To get a certain block by blockhash
+ Gets a certain block with the block hash.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| BlockHash    | 区块hash       | string  | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| BlockHash    | string | The block hash |
 
+### Example
 
-### output
-
-// TODO
-
-### example
-
-```
+```shell
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -26,3 +21,6 @@ curl --location --request POST '127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO

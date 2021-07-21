@@ -2,19 +2,19 @@
 
 To ScCall by an address in a certain contract
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
+| Name         | Description       | Type    |    |
 | ---------------- | -------------- | ------- |------   |
 | ContractHash    | 合约地址       | string  | 是|
 | Address    | 用户地址       | string  | 是|
 
 
-### output
+### Output
 
 // TODO
 
-### example
+### Example
 ```
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \

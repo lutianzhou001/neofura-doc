@@ -1,19 +1,15 @@
 ## GetContractByContractHash
 
-To get Contract MetaData by Contract Hash
+ Gets the contract MetaData by the contract script hash.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| ContractHash |合约hash       | string  | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| ContractHash |string       |The contract hash       |
 
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -24,5 +20,7 @@ curl --location --request POST 'http://127.0.0.1:1926' \
 }'
 ```
 
+### Output
 
+// TODO
 

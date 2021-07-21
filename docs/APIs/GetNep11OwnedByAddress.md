@@ -1,20 +1,15 @@
 ## GetNep11OwnedByAddress
 
-To get the Nep11 owned by address
+ Gets the Nep11 owned by address.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| Address    | 用户地址       | string  | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| Address    | string | The user address |
 
-
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{  
@@ -25,3 +20,6 @@ curl --location --request POST '127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO

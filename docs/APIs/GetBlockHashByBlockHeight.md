@@ -1,19 +1,15 @@
 ## GetBlockHashByBlockHeight
 
-To get blockhash by the input of block number
+ Gets the block hash by the block height.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| BlockHeight    | 区块高度       | int  | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| BlockHeight    | int | The block height |
 
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
@@ -25,4 +21,6 @@ curl --location --request POST '127.0.0.1:1926' \
 }'
 ```
 
+### Output
 
+// TODO

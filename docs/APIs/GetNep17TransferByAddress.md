@@ -1,21 +1,17 @@
 ## GetNep17TransferByAddress
 
-To get the all the transfers by inputing address (including from and to)
+ Gets all the transfers by the address (including from and to)
 
-### input
+### Parameters
 
-| 输入参数 | 参数含义 | 类型   | 是否必须 |
-| -------- | -------- | ------ | -------- |
-| Address  | 地址     | string | 是       |
-| Limit    | Limit    | int    | 否       |
-| Skip     | Skip     | itn    | 否       |
+| Name | Type | Description |
+| -------- | -------- | ------ |
+| Address  | string | Address |
+| Limit    | int | Limit. It is optional |
+| Skip     | itn  | Skip. It is optional |
 
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -28,3 +24,6 @@ curl --location --request POST 'http://127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO

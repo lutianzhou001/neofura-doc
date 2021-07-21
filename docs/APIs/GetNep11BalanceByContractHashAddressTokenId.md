@@ -1,24 +1,20 @@
 ## GetNep11BalanceByContractHashAddressTokenId
 
-To get Nep11Balance(NFT) By ContractHash and address and tokenId
+ Gets Nep11Balance(NFT) By the combination of contract script hash, address, and tokenId.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| ContractHash | 合约Hash | string  | 是|
-| Address | 地址 | string | 是 |
-| TokenId | tokenId | string | 是|
-| Limit | 限制 | int | 否 |
-| Skip | 跳过 | int | 否 |
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| ContractHash | string | The contract script hash |
+| Address | string | Address |
+| TokenId | string | tokenId |
+| Limit | int. It is optional | Limit. It is optional |
+| Skip | int. It is optional | Skip. It is optional |
 
-### output
+### Example
 
-// TODO
-
-### example
-
-```
+```shell
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -28,4 +24,8 @@ curl --location --request POST '127.0.0.1:1926' \
   "id": 1
 }'
 ```
+
+### Output
+
+// TODO
 

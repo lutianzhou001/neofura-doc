@@ -1,23 +1,19 @@
 ## GetAssetHeldByAddress
 
-To get asset holders by contract hash
+ Gets asset holders with the contract script hash.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| Address    | 合约地址       | string  | 是|
-| Limit     | Limit         | int  |否  |
-| Skip |Skip | int |否 |
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| Address    | string | The contract script hash. |
+| Limit     | int      | Limit. It is optional. |
+| Skip |int |Skip. It is optional. |
 
-### output
-
-// TODO
-
-### example
+### Example
 
 
-```
+```shell
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -28,4 +24,7 @@ curl --location --request POST '127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO
 

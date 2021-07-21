@@ -1,19 +1,15 @@
 ## GetRawTransactionByTransactionHash
 
-To get raw transaction by transaction hash
+ Gets the raw transaction by the transaction hash
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| TransactionHash    |交易hash       | string  | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| TransactionHash    |string       |The transaction hash       |
 
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -24,5 +20,7 @@ curl --location --request POST '127.0.0.1:1926' \
 }'
 ```
 
+### Output
 
+// TODO
 

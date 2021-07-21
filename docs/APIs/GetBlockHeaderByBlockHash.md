@@ -1,20 +1,15 @@
 ## GetBlockHeaderByBlockHash
 
-To get BlockHeader by the input of a blockHash
+ Gets the block header by the specified block hash.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| BlockHash    | 区块hash       | string  | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| BlockHash    | string | The block hash |
 
-
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
@@ -26,4 +21,7 @@ curl --location --request POST '127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO
 
