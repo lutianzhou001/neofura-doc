@@ -1,21 +1,16 @@
 ## GetScCallByContractHashAddress
 
-To ScCall by an address in a certain contract
+Gets ScCall by an address in a certain contract
 
 ### Parameters
 
-| Name         | Description       | Type    |    |
-| ---------------- | -------------- | ------- |------   |
-| ContractHash    | 合约地址       | string  | 是|
-| Address    | 用户地址       | string  | 是|
-
-
-### Output
-
-// TODO
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| ContractHash    | string | The contract address |
+| Address    | string | The user address |
 
 ### Example
-```
+```shell
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{  
@@ -26,3 +21,6 @@ curl --location --request POST '127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO

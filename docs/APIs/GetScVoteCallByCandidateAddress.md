@@ -1,19 +1,15 @@
 ## GetScVoteCallByCandidateAddress
 
- Gets amount of voters vote to a certain candidate
+ Gets the amount of votes cast to a specified candidate
 
 ### Parameters
 
-| Name         | Description       | Type    |    |
-| ---------------- | -------------- | ------- |------   |
-| CandidateAddress | 候选人地址 | string  | 是|
-
-### Output
-
-// TODO
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| CandidateAddress | string | The candidate address |
 
 ### Example
-```
+```shell
 curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{  
@@ -24,3 +20,6 @@ curl --location --request POST 'http://127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO
