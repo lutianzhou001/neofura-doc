@@ -1,12 +1,12 @@
 ## GetVotesByCandidateAddress
 
- Gets the number of votes by the candidate address.
+Gets the number of votes of the given candidate address.
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | -------------- |
-| CandidateAddress | string | The candidate address |
+| CandidateAddress | string | The candidate address to query |
 
 ### Example
 ```shell

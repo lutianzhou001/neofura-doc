@@ -1,6 +1,6 @@
 ## GetNep11OwnedByContractHashAddress
 
- Gets Nep11 owned by an address with a certain contract script hash.
+Gets Nep11 owned by the address with a certain contract script hash.
 
 ### Parameters
 

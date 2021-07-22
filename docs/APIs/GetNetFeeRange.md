@@ -1,6 +1,6 @@
 ## GetNetFeeRange
 
- Gets the netfee range
+Gets the network fee range.
 
 ### Example
 ```shell

@@ -1,6 +1,6 @@
 ## GetBlockByBlockHeight
 
- Gets a certain block with the block height (index).
+ Gets the corresponding block information by the given block height (index).
 
 ### Parameters
 
@@ -11,7 +11,6 @@
 ### Example
 
 ```shell
-
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{

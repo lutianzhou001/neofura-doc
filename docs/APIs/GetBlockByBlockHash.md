@@ -1,6 +1,6 @@
 ## GetBlockByBlockHash
 
- Gets a certain block with the block hash.
+ Gets the corresponding block information by the given block hash.
 
 ### Parameters
 

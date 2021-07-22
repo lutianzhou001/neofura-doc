@@ -1,6 +1,6 @@
 ## GetNep11OwnedByAddress
 
- Gets the Nep11 owned by address.
+Gets the Nep11 owned by the given address.
 
 ### Parameters
 

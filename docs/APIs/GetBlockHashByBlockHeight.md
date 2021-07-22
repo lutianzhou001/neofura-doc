@@ -1,6 +1,6 @@
 ## GetBlockHashByBlockHeight
 
- Gets the block hash by the block height.
+Gets the block hash by the given block height.
 
 ### Parameters
 
@@ -10,7 +10,6 @@
 
 ### Example
 ```shell
-
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{

@@ -1,6 +1,6 @@
 ## GetBlockHeaderByBlockHash
 
- Gets the block header by the specified block hash.
+ Gets the block header by the given block hash.
 
 ### Parameters
 

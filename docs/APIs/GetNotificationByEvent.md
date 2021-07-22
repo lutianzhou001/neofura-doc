@@ -1,6 +1,6 @@
 ## GetNotificationByEvent
 
- Gets the Notification By the event.
+Gets the Notification By the event.
 
 ### Parameters
 

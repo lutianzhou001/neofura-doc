@@ -6,7 +6,7 @@ Gets the execution message of a block by the trigger.
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| Trigger    | string | 触发       |
+| Trigger    | string | The trigger name |
 | Limit | int | Limit. It is optional. |
 | Skip | int | Skip. It is optional. |
 

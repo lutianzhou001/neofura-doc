@@ -1,6 +1,6 @@
 ## GetNotificationByContractHash
 
- Gets the notification by the contract hash
+Gets the notification by the contract hash
 
 ### Parameters
 

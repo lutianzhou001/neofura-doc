@@ -1,6 +1,6 @@
 ## GetScVoteCallByVoterAddress
 
- Gets ScVote call by the voter's address (indicate which candidate does a voter vote to in which block)
+Gets ScVote call by the voter's address (indicate which candidate does a voter vote to in which block)
 
 ### Parameters
 

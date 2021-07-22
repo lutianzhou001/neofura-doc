@@ -1,6 +1,6 @@
 ## GetNep17TransferByTransactionHash
 
- Gets the Nep17Transfer message by the transaction hash
+Gets the Nep17Transfer message by the transaction hash
 
 ### Parameters
 

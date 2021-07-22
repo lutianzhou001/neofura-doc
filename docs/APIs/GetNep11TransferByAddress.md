@@ -1,6 +1,6 @@
 ## GetNep11TransferByAddress
 
- Gets Nep11Transfer by the address.
+ Gets the Nep11 transfer (NFT) by the address.
 
 ### Parameters
 

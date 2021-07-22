@@ -8,10 +8,6 @@
 | ---------------- | -------------- | ------- |
 | TokenName |string       |The token name.       |
 
-### Output
-
-// TODO
-
 ### Example
 
 ```shell
@@ -25,3 +21,6 @@ curl --location --request POST 'http://127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO

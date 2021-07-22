@@ -1,6 +1,6 @@
 ## GetContractByContractHash
 
- Gets the contract MetaData by the contract script hash.
+Gets the contract MetaData by the contract script hash.
 
 ### Parameters
 

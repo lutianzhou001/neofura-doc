@@ -1,6 +1,6 @@
 ## GetScVoteCallByTransactionHash
 
- Gets the ScVoteCall by the transaction hash. Especially, this function can also be called by [GetScCallByTransactionHash](GetScCallByTransactionHash.md)
+Gets the ScVoteCall by the transaction hash. Especially, this function can also be called by [GetScCallByTransactionHash](GetScCallByTransactionHash.md)
 
 ### Parameters
 
