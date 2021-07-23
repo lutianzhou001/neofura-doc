@@ -1,22 +1,17 @@
 ## GetExecutionByTrigger
 
-To execution messgae of the trigger
+Gets the execution message of a block by the trigger.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| Trigger    | 触发       | string  | 是|
-| Limit | Limit | int| 否|
-| Skip | Skip | int| 否|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| Trigger    | string | The trigger name |
+| Limit | int | Limit. It is optional. |
+| Skip | int | Skip. It is optional. |
 
-
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -26,3 +21,7 @@ curl --location --request POST '127.0.0.1:1926' \
     "method": "GetExecutionByTrigger"
 }'
 ```
+
+### Output
+
+// TODO

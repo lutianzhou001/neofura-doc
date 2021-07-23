@@ -1,19 +1,15 @@
 ## GetVotesByCandidateAddress
 
-To get how many votes by CandidateAddress given
+Gets the number of votes of the given candidate address.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| CandidateAddress | 候选人地址 | string  | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | -------------- |
+| CandidateAddress | string | The candidate address to query |
 
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{  
@@ -24,3 +20,6 @@ curl --location --request POST 'http://127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO

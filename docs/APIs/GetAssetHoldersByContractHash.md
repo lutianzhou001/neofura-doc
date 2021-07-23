@@ -1,15 +1,15 @@
 ## GetAssetHoldersByContractHash
 
-Gets asset holders by the contract hash.
+
+Gets asset holders with the contract script hash.
 
 ### Parameters
 
-| Name         | Type      | Description    |   |
-| ---------------- | -------------- | ------- |------   |
-| ContractHash    | string      | The contract script hash  |Required |
-| Limit     | int         | Limit  |Optional  |
-| Skip |itn | Skip |Optional |
-
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| ContractHash    | string | The contract script hash |
+| Limit     | int      | Limit. It is optional. |
+| Skip |itn |Skip. It is optional. |
 ### Example
 
 ```shell
@@ -24,6 +24,4 @@ curl --location --request POST '127.0.0.1:1926' \
 ```
 
 ### Output
-
 // TODO
-

@@ -1,19 +1,15 @@
 ## GetScVoteCallByVoterAddress
 
-To get ScVote call by voter address (indicate which candidate does a voter vote to in which block)
+Gets ScVote call by the voter's address (indicate which candidate does a voter vote to in which block)
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| VoterAddress | 投票者hash | string  | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| VoterAddress | string | The voter's address hash |
 
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{  
@@ -24,3 +20,6 @@ curl --location --request POST 'http://127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO

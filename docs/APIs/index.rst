@@ -9,6 +9,7 @@ All APIs will be displayed here
 
    GetAssetHoldersByContractHash.md
    GetAssetInfoByContractHash.md
+   GetAssetInfoByTokenName.md
    GetAssetsHeldByAddress.md
    GetBalanceByContractHashAddress.md
    GetBestBlockHash.md
@@ -17,35 +18,33 @@ All APIs will be displayed here
    GetBlockCount.md
    GetBlockHashByBlockHeight.md
    GetBlockHeaderByBlockHash.md
-   GetExecutionByBlockHash.md
-   GetExecutionByTrigger.md
-   GetExecutionByTransactionHash.md
-   GetNep17TransferByContractHash.md
-   GetNep17TransferByTransactionHash.md
-   GetNep17TransferByAddress.md
-   GetNotificationByContractHash.md
-   GetRawTransactionBySender.md
-   GetRawTransactionByTransactionHash.md
-   GetRawTransactionByBlockHash.md
-   GetRawTransactionByBlockHeight.md
-   GetContractByContractHash.md
-   GetNotificationByEvent.md
-   GetAssetInfoByTokenName.md
-   GetNep11BalanceByContractHashAddress.md
-   GetNep11TransferByAddress.md
-   GetNep11TransferByTransactionHash.md
-   GetNep11BalanceByContractHashAddressTokenId.md
-   GetScCallByTransactionHash.md
-   GetScVoteCallByTransactionHash.md
-   GetScCallByContractHash.md
-   GetScVoteCallByVoterAddress.md
-   GetScVoteCallByCandidateAddress.md
    GetCandidateByVoterAddress.md
-   GetVotersByCandidateAddress.md
-   GetVotesByCandidateAddress.md
-   GetRawMemPool.md
-   GetNetFeeRange.md
+   GetContractByContractHash.md
+   GetExecutionByBlockHash.md
+   GetExecutionByTransactionHash.md
+   GetExecutionByTrigger.md
+   GetNep11BalanceByContractHashAddress.md
+   GetNep11BalanceByContractHashAddressTokenId.md
    GetNep11OwnedByAddress.md
    GetNep11OwnedByContractHashAddress.md
+   GetNep11TransferByAddress.md
+   GetNep11TransferByTransactionHash.md
+   GetNep17TransferByAddress.md
+   GetNep17TransferByContractHash.md
+   GetNep17TransferByTransactionHash.md
+   GetNetFeeRange.md
+   GetNotificationByContractHash.md
+   GetNotificationByEvent.md
+   GetRawMemPool.md
+   GetRawTransactionByBlockHash.md
+   GetRawTransactionByBlockHeight.md
+   GetRawTransactionBySender.md
+   GetRawTransactionByTransactionHash.md
+   GetScCallByContractHash.md
    GetScCallByContractHashAddress.md
-
+   GetScCallByTransactionHash.md
+   GetScVoteCallByCandidateAddress.md
+   GetScVoteCallByTransactionHash.md
+   GetScVoteCallByVoterAddress.md
+   GetVotersByCandidateAddress.md
+   GetVotesByCandidateAddress.md

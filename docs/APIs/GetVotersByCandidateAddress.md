@@ -1,19 +1,15 @@
 ## GetVotersByCandidateAddress
 
-To get how many voters and their transaction messages by CandidateAddress given
+Gets the number of voters and their transaction messages by the candidate address.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| CandidateAddress | 候选人地址 | string  | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| CandidateAddress | string | The candidate address |
 
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{  
@@ -23,4 +19,8 @@ curl --location --request POST 'http://127.0.0.1:1926' \
   "id": 1
 }'
 ```
+
+### Output
+
+// TODO
 

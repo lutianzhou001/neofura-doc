@@ -1,21 +1,15 @@
 ## GetScVoteCallByTransactionHash
 
-To get the ScVoteCall by TransactionHash
+Gets the ScVoteCall by the transaction hash. Especially, this function can also be called by [GetScCallByTransactionHash](GetScCallByTransactionHash.md)
 
-// especially, this function can also be called by GetScCallByTransactionHash
+### Parameters
 
-### input
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| TransactionHash | string | The transaction hash |
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| TransactionHash | 交易哈希  | string  | 是|
-
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{  
@@ -26,3 +20,6 @@ curl --location --request POST '127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO

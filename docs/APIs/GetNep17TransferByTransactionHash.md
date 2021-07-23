@@ -1,21 +1,16 @@
 ## GetNep17TransferByTransactionHash
 
-To get the Nep17Transfer message by transactionhash
+Gets the Nep17Transfer message by the transaction hash
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| TransactionHash    | 交易hash       | string  | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| TransactionHash    | string | The transaction hash |
 
+### Example
 
-### output
-
-// TODO
-
-### example
-
-```
+```shell
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -26,3 +21,6 @@ curl --location --request POST '127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO

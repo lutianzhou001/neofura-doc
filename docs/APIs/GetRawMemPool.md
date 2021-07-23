@@ -1,16 +1,9 @@
 ## GetRawMemPool
 
-To get the RawMemPool
+ Gets the RawMemPool
 
-### input
-
-
-### output
-
-// TODO
-
-### example
-```
+### Example
+```sh
 curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{  
@@ -20,4 +13,8 @@ curl --location --request POST 'http://127.0.0.1:1926' \
   "id": 1
 }'
 ```
+
+### Output
+
+// TODO
 

@@ -1,19 +1,15 @@
 ## GetCandidateByVoterAddress
 
-To get the transcation of the candidate and other messages by the voter address given.
+Gets the candidate transaction and relevant messages by the voter address.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| VoterAddress | 投票者地址 | string  | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| VoterAddress | string | The voter's wallet address |
 
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{  
@@ -24,3 +20,6 @@ curl --location --request POST 'http://127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO

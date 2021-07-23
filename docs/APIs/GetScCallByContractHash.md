@@ -1,19 +1,15 @@
 ## GetScCallByContractHash
 
-To get the ScCall By contractHash
+ Gets the ScCall By the contract hash.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| ContractHash | 合约哈希 | string  | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| ContractHash | string | The contract script hash |
 
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{  
@@ -24,3 +20,6 @@ curl --location --request POST 'http://127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO

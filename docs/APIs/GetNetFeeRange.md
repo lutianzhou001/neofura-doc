@@ -1,16 +1,9 @@
 ## GetNetFeeRange
 
-To get the netfee range
+Gets the network fee range.
 
-### input
-
-
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{  
@@ -20,4 +13,8 @@ curl --location --request POST '127.0.0.1:1926' \
   "id": 1
 }'
 ```
+
+### Output
+
+// TODO
 

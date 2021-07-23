@@ -1,21 +1,17 @@
 ## GetRawTransactionBySender
 
-To get raw transaction by sender
+ Gets the raw transaction by the sender's address.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| Sender    | 发送者地址       | string  | 是|
-| Limit     | Limit         | int  |否  |
-| Skip |Skip | itn |否 |
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| Sender    | string | The sender's address |
+| Limit     | int | Limit. Optional |
+| Skip |itn |Skip. Optional |
 
-### output
-
-// TODO
-
-### example
-```
+### Example
+```shell
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -26,4 +22,7 @@ curl --location --request POST '127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO
 

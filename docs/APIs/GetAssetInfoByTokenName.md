@@ -1,20 +1,16 @@
 ## GetAssetInfoByTokenName
 
-To get AssetInfo by TokenName
+ Gets the asset information with the token name.
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| TokenName |通证名称       | string | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| TokenName |string       |The token name.       |
 
-### output
+### Example
 
-// TODO
-
-### example
-
-```
+```shell
 curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -25,4 +21,6 @@ curl --location --request POST 'http://127.0.0.1:1926' \
 }'
 ```
 
+### Output
 
+// TODO

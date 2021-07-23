@@ -1,22 +1,17 @@
 ## GetBalanceByContractHashAddress
 
-Get balance by ContractHash and Address (newest balance)
+Gets the balance with ContractHash and Address (newest balance)
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| ContractHash    | 合约地址       | string  | 是|
-| Address     | 外部地址         | string  |是  |
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| ContractHash    | string | The contract script hash |
+| Address     | string   | The external address |
 
+### Example
 
-### output
-
-// TODO
-
-### example
-
-```
+```shell
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -27,4 +22,6 @@ curl --location --request POST '127.0.0.1:1926' \
 }'
 ```
 
+### Output
 
+// TODO

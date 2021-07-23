@@ -1,22 +1,16 @@
 ## GetBlockByBlockHeight
 
-To get a certain block by the blockheight(index)
+ Gets the corresponding block information by the given block height (index).
 
-### input
+### Parameters
 
-| 输入参数         | 参数含义       | 类型    | 是否必须  |
-| ---------------- | -------------- | ------- |------   |
-| BlockHeight    |   区块高度     |int  | 是|
+| Name         | Type   | Description       |
+| ---------------- | -------------- | ------- |
+| BlockHeight    |  int  |  The block height  |
 
+### Example
 
-### output
-
-// TODO
-
-### example
-
-```
-
+```shell
 curl --location --request POST '127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -27,4 +21,7 @@ curl --location --request POST '127.0.0.1:1926' \
 }'
 ```
 
+### Output
+
+// TODO
 
