@@ -17,5 +17,15 @@ curl --location --request POST '127.0.0.1:1926' \
 
 ### Output
 
-// TODO
+```json
+{
+    "id": 1,
+    "result": {
+        "index": 354596
+    },
+    "error": null
+}
+```
+
+
 

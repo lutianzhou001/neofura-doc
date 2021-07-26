@@ -12,16 +12,28 @@ Gets the balance with ContractHash and Address (newest balance)
 ### Example
 
 ```shell
-curl --location --request POST '127.0.0.1:1926' \
+curl --location --request POST 'http://40.76.139.118:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "jsonrpc": "2.0",
-    "id": 1,
-    "params": {"Address":"0x69fdb9f6d614d393e0a0a301855c015b0e8da5bb","ContractHash":"0xd2a4cff31913016155e38e474a2c06d08be276cf"},
-    "method": "GetBalanceByContractHashAddress"
+  "jsonrpc": "2.0",
+  "method": "GetBalanceByContractHashAddress",
+  "params": {"Address":"NUzy2Ns2D35BTdFVqDhUCRoZb1cmix2cXS","ContractHash":"0xef4073a0f2b305a38ec4050e4d3d28bc40ea63f5"},
+  "id": 1
 }'
 ```
 
 ### Output
 
-// TODO
+```json
+{
+    "id": 1,
+    "result": {
+        "_id": "60f9312bd674c9fe29cb07e0",
+        "address": "0x96d5942028891de8e5d866f504b36ff5ae13ab63",
+        "asset": "0xef4073a0f2b305a38ec4050e4d3d28bc40ea63f5",
+        "balance": "1000000"
+    },
+    "error": null
+}
+```
+
