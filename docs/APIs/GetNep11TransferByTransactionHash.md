@@ -1,6 +1,6 @@
 ## GetNep11TransferByTransactionHash
 
- Gets the Nep11 transfer (NFT) by the transaction hash.
+ Gets the Nep11 (NFT) transfer information by the transaction hash.
 
 ### Parameters
 

@@ -1,14 +1,14 @@
 ## GetAssetHeldByAddress
 
- Gets asset holders with the contract script hash.
+ Gets asset holders with the user address.
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| Address    | string | The contract script hash. |
-| Limit     | int      | Limit. It is optional. |
-| Skip |int |Skip. It is optional. |
+| Address    | string | The user's wallet address |
+| Limit     | int      | The number of items to return. It is optional and used for paging. |
+| Skip |int |The number of items to skip. It is optional and used for paging. |
 
 ### Example
 

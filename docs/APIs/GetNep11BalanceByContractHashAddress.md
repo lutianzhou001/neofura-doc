@@ -1,15 +1,15 @@
 ## GetNep11BalanceByContractHashAddress
 
- Gets Nep11Balance(NFT) By the contract hash and address.
+ Gets Nep11(NFT) balance By the contract script hash and user's address.
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| ContractHash | string | The contract hash |
-| Address | string | Address |
-| Limit | int | Limit. It is optional |
-| Skip | int | Skip. It is optional |
+| ContractHash | string | The contract script hash |
+| Address | string | The user's wallet address |
+| Limit | int | The number of items to return. It is optional and used for paging. |
+| Skip | int | The number of items to skip It is optional and used for paging. |
 
 ### Example
 

@@ -7,8 +7,8 @@ Gets the notification by the contract hash
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
 | ContractHash    | string | The contract script hash |
-| Limit     | int      | Limit. It is optional |
-| Skip |itn |Skip. It is optional |
+| Limit     | int      | The number of items to return. It is optional and used for paging. |
+| Skip |itn |The number of items to skip. It is optional and used for paging. |
 
 ### Example
 ```shell

@@ -1,14 +1,14 @@
 ## GetNep17TransferByAddress
 
- Gets all the transfers by the address (including from and to)
+Gets all the transfers by the address (including from and to)
 
 ### Parameters
 
 | Name | Type | Description |
 | -------- | -------- | ------ |
-| Address  | string | Address |
-| Limit    | int | Limit. It is optional |
-| Skip     | itn  | Skip. It is optional |
+| Address  | string | The user's address |
+| Limit    | int | The number of items to return. It is optional and used for paging. |
+| Skip     | itn  | The number of items to skip. It is optional and used for paging. |
 
 ### Example
 ```shell

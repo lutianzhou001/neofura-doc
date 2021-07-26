@@ -1,14 +1,14 @@
 ## GetNotificationByEvent
 
-Gets the Notification By the event.
+Gets the notifications by the event.
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
 | Event |string       |The event name       |
-| Limit |Int |Limit. It is optional |
-| Skip |Int |Skip. It is optional |
+| Limit |Int |The number of items to return. It is optional and used for paging. |
+| Skip |Int |The number of items to skip. It is optional and used for paging. |
 
 ### Example
 

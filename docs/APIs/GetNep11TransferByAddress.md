@@ -1,14 +1,14 @@
 ## GetNep11TransferByAddress
 
- Gets the Nep11 transfer (NFT) by the address.
+ Gets the Nep11 (NFT) transfer information by the user address.
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| Address | string | Address |
-| Limit | int | Limit. It is optional |
-| Skip | int | Skip. It is optional |
+| Address | string | The user's address |
+| Limit | int | The number of items to return. It is optional and used for paging. |
+| Skip | int | The number of items to skip. It is optional and used for paging. |
 
 ### Example
 ```shell
