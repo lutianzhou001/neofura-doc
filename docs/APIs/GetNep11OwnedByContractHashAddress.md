@@ -1,6 +1,6 @@
 ## GetNep11OwnedByContractHashAddress
 
-Gets Nep11 owned by the address with a certain contract script hash.
+Gets the Nep11(NFT) related transaction information by the given user address and contract script hash.
 
 ### Parameters
 

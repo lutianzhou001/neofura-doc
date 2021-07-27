@@ -7,8 +7,8 @@
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
 | Sender    | string | The sender's address |
-| Limit     | int | Limit. Optional |
-| Skip |itn |Skip. Optional |
+| Limit     | int | The number of items to return. It is optional and used for paging. |
+| Skip |itn |The number of items to skip. It is optional and used for paging. |
 
 ### Example
 ```shell

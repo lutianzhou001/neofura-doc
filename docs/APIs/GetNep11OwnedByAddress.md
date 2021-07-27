@@ -1,12 +1,12 @@
 ## GetNep11OwnedByAddress
 
-Gets the Nep11 owned by the given address.
+Gets the Nep11(NFT) related transaction information occurred at the given address.
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| Address    | string | The user address |
+| Address    | string | The user's address |
 
 ### Example
 ```shell

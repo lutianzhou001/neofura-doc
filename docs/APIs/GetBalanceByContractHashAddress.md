@@ -1,6 +1,6 @@
 ## GetBalanceByContractHashAddress
 
-Gets the balance with ContractHash and Address (newest balance)
+Gets the latest balance with the contract script hash and user's address.
 
 ### Parameters
 

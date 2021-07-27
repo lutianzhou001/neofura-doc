@@ -7,8 +7,8 @@
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
 | BlockHeight |Int       |The block height       |
-| Limit |Int |Limit. It is optional |
-| Skip |Int |Skip. It is optional |
+| Limit |Int |The number of items to return. It is optional and used for paging. |
+| Skip |Int |The number of items to skip. It is optional and used for paging. |
 
 ### Example
 
