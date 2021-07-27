@@ -10,7 +10,7 @@ Gets the number of votes of the given candidate address.
 
 ### Example
 ```shell
-curl --location --request POST 'http://127.0.0.1:1926' \
+curl --location --request POST 'http://40.76.139.118:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{  
   "jsonrpc": "2.0",
@@ -22,4 +22,17 @@ curl --location --request POST 'http://127.0.0.1:1926' \
 
 ### Output
 
-// TODO
+```json
+{
+    "id": 1,
+    "result": {
+        "_id": "60f7fe975a26ad67090d7b79",
+        "candidate": "0x0bf916d727c75f2e51e1ab2c476304513da59701",
+        "isCommittee": true,
+        "state": true,
+        "votesOfCandidate": "53015863"
+    },
+    "error": null
+}
+```
+

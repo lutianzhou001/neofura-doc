@@ -22,4 +22,13 @@ curl --location --request POST '127.0.0.1:1926' \
 
 ### Output
 
-// TODO
+```json
+{
+    "id": 1,
+    "result": {
+        "hash": "0xed8120b29ab55a41a0058887edfc139fcb93e91d043b6986042b12a31d3cb139"
+    },
+    "error": null
+}
+```
+

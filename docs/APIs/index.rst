@@ -10,6 +10,7 @@ All APIs will be displayed here
    GetAssetHoldersByContractHash.md
    GetAssetInfoByContractHash.md
    GetAssetInfoByTokenName.md
+   GetAssetsInfos.md
    GetAssetsHeldByAddress.md
    GetBalanceByContractHashAddress.md
    GetBestBlockHash.md
@@ -19,6 +20,7 @@ All APIs will be displayed here
    GetBlockHashByBlockHeight.md
    GetBlockHeaderByBlockHash.md
    GetCandidateByVoterAddress.md
+   GetCommittee.md
    GetContractByContractHash.md
    GetExecutionByBlockHash.md
    GetExecutionByTransactionHash.md
@@ -36,6 +38,7 @@ All APIs will be displayed here
    GetNotificationByContractHash.md
    GetNotificationByEvent.md
    GetRawMemPool.md
+   GetRawTransactionByAddress.md
    GetRawTransactionByBlockHash.md
    GetRawTransactionByBlockHeight.md
    GetRawTransactionBySender.md
@@ -48,3 +51,5 @@ All APIs will be displayed here
    GetScVoteCallByVoterAddress.md
    GetVotersByCandidateAddress.md
    GetVotesByCandidateAddress.md
+
+
