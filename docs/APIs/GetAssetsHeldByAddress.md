@@ -1,6 +1,6 @@
 ## GetAssetHeldByAddress
 
- Gets asset holders with the user address.
+Gets asset holders with the user address.
 
 ### Parameters
 

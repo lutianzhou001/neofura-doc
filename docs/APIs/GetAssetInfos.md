@@ -1,6 +1,6 @@
 ## GetAssetInfos
 
- Gets the all assets information
+Gets all assets information
 
 ### Parameters
 

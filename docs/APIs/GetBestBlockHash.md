@@ -1,6 +1,6 @@
 ## GetBestBlockHash
 
- Gets the latest block hash.
+Gets the latest block hash.
 
 ### Example
 

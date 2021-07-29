@@ -1,6 +1,6 @@
 ## GetScCallByContractHash
 
- Gets the ScCall By the contract hash.
+ Gets the ScCall by the contract hash.
 
 ### Parameters
 

@@ -1,6 +1,6 @@
 ## GetBlockByBlockHeight
 
- Gets the corresponding block information by the given block height (index).
+Gets the corresponding block information by the given block height (index).
 
 ### Parameters
 

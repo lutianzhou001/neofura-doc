@@ -1,12 +1,12 @@
 ## GetContractByContractHash
 
-Gets the contract MetaData by the contract script hash.
+Gets the contract manifest and nef file content by the contract script hash.
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| ContractHash |string       |The contract hash       |
+| ContractHash |string       |The contract script hash       |
 
 ### Example
 ```shell
