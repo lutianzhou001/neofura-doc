@@ -1,6 +1,6 @@
 ## GetRawMemPool
 
-Gets the RawMemPool
+Gets the unconfirmed transactions in memory.
 
 ### Example
 ```sh

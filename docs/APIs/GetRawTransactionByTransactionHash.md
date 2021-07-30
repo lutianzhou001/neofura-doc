@@ -1,6 +1,6 @@
 ## GetRawTransactionByTransactionHash
 
- Gets the raw transaction by the transaction hash
+Gets the raw transaction by the transaction hash
 
 ### Parameters
 

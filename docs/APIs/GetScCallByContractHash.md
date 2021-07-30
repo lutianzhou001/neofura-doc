@@ -1,6 +1,6 @@
 ## GetScCallByContractHash
 
- Gets the ScCall by the contract hash.
+Gets the transaction details of contract invocation by the contract script hash.
 
 ### Parameters
 

@@ -1,6 +1,6 @@
 ## GetRawTransactionByBlockHeight
 
- Gets the raw transaction by the block height.
+Gets the raw transaction by the block height.
 
 ### Parameters
 
