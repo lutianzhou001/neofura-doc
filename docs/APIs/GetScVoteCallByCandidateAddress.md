@@ -1,6 +1,6 @@
 ## GetScVoteCallByCandidateAddress
 
- Gets the amount of votes cast of the given candidate.
+ Gets the ScVote call by the candidate address.
 
 ### Parameters
 
