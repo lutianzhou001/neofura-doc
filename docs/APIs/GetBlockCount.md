@@ -1,6 +1,6 @@
 ## GetBlockCount
 
-Gets the latest block number.
+Gets the latest block height.
 
 ### Example
 ```shell
