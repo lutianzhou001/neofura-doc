@@ -2,8 +2,6 @@
 
 Gets all assets information
 
-### Parameters
-
 ### Example
 
 ```shell

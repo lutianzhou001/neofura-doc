@@ -1,12 +1,12 @@
 ## GetAssetHeldByAddress
 
-Gets asset holders with the user address.
+Gets the asset hashes and corresponding balance in the specified address.
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| Address    | string | The user's wallet address |
+| Address    | string | The user's account address |
 | Limit     | int      | The number of items to return. It is optional and used for paging. |
 | Skip |int |The number of items to skip. It is optional and used for paging. |
 
