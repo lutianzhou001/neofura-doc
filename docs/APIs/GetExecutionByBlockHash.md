@@ -1,6 +1,6 @@
 ## GetExecutionByBlockHash
 
-Gets the execution message of a block by the block hash.
+Gets the block execution message by the block hash.
 
 ### Parameters
 

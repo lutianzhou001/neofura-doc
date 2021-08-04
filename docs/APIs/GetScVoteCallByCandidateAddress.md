@@ -1,12 +1,12 @@
 ## GetScVoteCallByCandidateAddress
 
- Gets the amount of votes cast of the given candidate.
+Gets all the transactions that voted for the candidate address.
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| CandidateAddress | string | The candidate address |
+| CandidateAddress | string | The candidate's address |
 
 ### Example
 ```shell

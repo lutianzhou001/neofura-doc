@@ -1,14 +1,14 @@
 ## GetRawTransactionByAddress
 
- Gets the raw transaction by the sender's address.
+Gets the raw transaction by the sender's address.
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
 | Address | string | The sender's address |
-| Limit     | int | Limit. Optional |
-| Skip |int |Skip. Optional |
+| Limit     | int | The number of items to return. It is optional and used for paging. |
+| Skip |int |The number of items to skip. It is optional and used for paging. |
 
 ### Example
 ```shell

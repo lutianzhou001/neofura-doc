@@ -1,6 +1,6 @@
 ## GetRawTransactionByBlockHash
 
-Gets RawTransaction by the given block hash.
+Gets the raw transaction by the given block hash.
 
 ### Parameters
 

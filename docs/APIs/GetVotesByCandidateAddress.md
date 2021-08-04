@@ -1,6 +1,6 @@
 ## GetVotesByCandidateAddress
 
-Gets the number of votes of the given candidate address.
+Gets the votes cast to the candidate address.
 
 ### Parameters
 

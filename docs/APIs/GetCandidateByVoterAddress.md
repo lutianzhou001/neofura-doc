@@ -1,12 +1,12 @@
 ## GetCandidateByVoterAddress
 
-Gets the candidate transaction and relevant messages by the voter address.
+Gets the candidate transaction and relevant information by the voter address.
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| VoterAddress | string | The voter's wallet address |
+| VoterAddress | string | The voter's address |
 
 ### Example
 ```shell
