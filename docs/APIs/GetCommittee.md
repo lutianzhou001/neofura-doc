@@ -1,13 +1,6 @@
 ## GetCommittee
 
-Gets Committee
-
-### Parameters
-
-| Name         | Type   | Description       |
-| ---------------- | -------------- | ------- |
-| ContractHash    | string | The contract address |
-| Address    | string | The user address |
+Gets the list of committee members.
 
 ### Example
 ```shell

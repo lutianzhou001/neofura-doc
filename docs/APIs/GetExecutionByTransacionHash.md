@@ -1,6 +1,6 @@
 ## GetExecutionByTransactionHash
 
-Gets the execution message of a block by the transaction hash.
+Gets the block execution message by the transaction hash.
 
 ### Parameters
 

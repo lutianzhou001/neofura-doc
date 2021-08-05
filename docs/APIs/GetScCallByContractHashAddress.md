@@ -1,13 +1,13 @@
 ## GetScCallByContractHashAddress
 
-Gets ScCall by an address in a certain contract
+Gets the transaction details of contract invocation by the transaction sender's address and contract script hash.
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| ContractHash    | string | The contract address |
-| Address    | string | The user address |
+| ContractHash    | string | The contract script hash |
+| Address    | string | The transaction sender's address |
 
 ### Example
 ```shell

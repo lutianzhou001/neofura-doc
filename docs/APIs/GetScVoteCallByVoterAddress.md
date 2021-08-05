@@ -1,12 +1,12 @@
 ## GetScVoteCallByVoterAddress
 
-Gets ScVote call by the voter's address (indicate which candidate does a voter vote to in which block)
+Gets the voting information by the voter's address.
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| VoterAddress | string | The voter's address hash |
+| VoterAddress | string | The voter's address |
 
 ### Example
 ```shell

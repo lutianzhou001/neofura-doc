@@ -1,6 +1,6 @@
 ## GetAssetInfoByTokenName
 
- Gets the asset information with the token name.
+Gets the asset information with the token name.
 
 ### Parameters
 

@@ -1,12 +1,12 @@
 ## GetVotersByCandidateAddress
 
-Gets the number of voters and their transaction messages by the candidate address.
+Gets the list of all voters who voted for the candidate's address and related transaction information.
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| CandidateAddress | string | The candidate address |
+| CandidateAddress | string | The candidate's address |
 
 ### Example
 ```shell

@@ -1,6 +1,6 @@
 ## GetExecutionByTrigger
 
-Gets the execution message of a block by the trigger.
+Gets the block execution message by the trigger name.
 
 ### Parameters
 

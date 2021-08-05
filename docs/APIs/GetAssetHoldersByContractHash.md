@@ -1,7 +1,7 @@
 ## GetAssetHoldersByContractHash
 
 
-Gets asset holders with the contract script hash.
+Gets the asset holders with the contract script hash.
 
 ### Parameters
 

@@ -1,6 +1,6 @@
 ## GetRawTransactionBySender
 
- Gets the raw transaction by the sender's address.
+Gets the raw transaction by the sender's address.
 
 ### Parameters
 
