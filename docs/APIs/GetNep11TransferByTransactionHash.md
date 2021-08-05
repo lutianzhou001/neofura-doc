@@ -11,7 +11,7 @@
 ### Example
 
 ```shell
-curl --location --request POST 'http://40.76.139.118:1926' \
+curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
   "jsonrpc": "2.0",
