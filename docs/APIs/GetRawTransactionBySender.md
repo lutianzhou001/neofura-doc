@@ -8,7 +8,7 @@ Gets the raw transaction by the sender's address.
 | ---------------- | -------------- | ------- |
 | Sender    | string | The sender's address |
 | Limit     | int | The number of items to return. It is optional and used for paging. |
-| Skip |itn |The number of items to skip. It is optional and used for paging. |
+| Skip |int |The number of items to skip. It is optional and used for paging. |
 
 ### Example
 ```shell
