@@ -1,13 +1,12 @@
-## GetAssetInfos
+## GetAssetInfosByName
 
-Gets all assets information
+Gets the asset information with the token name(fuzzy search supported).
 
 ### Parameters
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| Addresses |array in strings       |contract hashes of assets to query.       |
-
+| Name |string       |The token name.       |
 
 ### Example
 
@@ -16,8 +15,8 @@ curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
   "jsonrpc": "2.0",
-  "method": "GetAssetInfos",
-  "params": {"Addresses":["0xd2a4cff31913016155e38e474a2c06d08be276cf"]},
+  "method": "GetAssetInfosByName",
+  "params": {"Name":"GasTo"},
   "id": 1
 }'
 ```
@@ -31,15 +30,11 @@ curl --location --request POST 'http://127.0.0.1:1926' \
         "result": [
             {
                 "_id": "6103a4ef822699ec7ebc63f0",
-                "decimals": 8,
-                "firsttransfertime": 1468595301000,
                 "hash": "0xd2a4cff31913016155e38e474a2c06d08be276cf",
                 "holders": 163,
                 "ispopular": true,
                 "symbol": "GAS",
-                "tokenname": "GasToken",
-                "totalsupply": "5201274859792915",
-                "type": "NEP17"
+                "tokenname": "GasToken"
             }
         ],
         "totalCount": 1

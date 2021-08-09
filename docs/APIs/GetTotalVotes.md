@@ -1,15 +1,14 @@
-## GetBestBlockHash
+## GetTotalVotes
 
-Gets the latest block hash.
+Gets amount of all votes.
 
 ### Example
-
 ```shell
 curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
   "jsonrpc": "2.0",
-  "method": "GetBestBlockHash",
+  "method": "GetTotalVotes",
   "params": {},
   "id": 1
 }'
@@ -21,11 +20,8 @@ curl --location --request POST 'http://127.0.0.1:1926' \
 {
     "id": 1,
     "result": {
-        "hash": "0x226844a595780dd2881bbfedbf4ffabe25fcc691969359aa1b7f87a715cdea75"
+        "totalvotes": 20112606
     },
     "error": null
 }
 ```
-
-
-
