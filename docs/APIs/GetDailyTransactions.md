@@ -1,6 +1,6 @@
 ## GetDailyTransactions
 
-Gets the daily transactions in recents days
+Gets the daily transactions in recent days
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
