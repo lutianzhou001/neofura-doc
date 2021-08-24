@@ -7,7 +7,7 @@ Gets the address infomation with the address.
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| Address    | string | The contract script hash |
+| Address    | string | The user's address |
 
 ### Example
 
