@@ -6,7 +6,8 @@ Gets all assets information
 
 | Name         | Type   | Description       |
 | ---------------- | -------------- | ------- |
-| Addresses |array in strings       |contract hashes of assets to query.       |
+| Addresses |array in strings       |contract hashes of assets to query.   |
+| Standard | string | token standard in NEP17 and NEP11, which can be omitted.  |
 
 
 ### Example
@@ -17,8 +18,8 @@ curl --location --request POST 'http://127.0.0.1:1926' \
 --data-raw '{
   "jsonrpc": "2.0",
   "method": "GetAssetInfos",
-  "params": {"Addresses":["0xd2a4cff31913016155e38e474a2c06d08be276cf"]},
-  "id": 1
+  "params": {"Addresses":["0xd2a4cff31913016155e38e474a2c06d08be276cf"],"Standard":"NEP17"},
+  "id": 1,
 }'
 ```
 
@@ -30,15 +31,15 @@ curl --location --request POST 'http://127.0.0.1:1926' \
     "result": {
         "result": [
             {
-                "_id": "6103a4ef822699ec7ebc63f0",
+                "_id": "614bef0ea14111843551a7fd",
                 "decimals": 8,
                 "firsttransfertime": 1468595301000,
                 "hash": "0xd2a4cff31913016155e38e474a2c06d08be276cf",
-                "holders": 163,
+                "holders": 600,
                 "ispopular": true,
                 "symbol": "GAS",
                 "tokenname": "GasToken",
-                "totalsupply": "5201274859792915",
+                "totalsupply": "5220483758158932",
                 "type": "NEP17"
             }
         ],

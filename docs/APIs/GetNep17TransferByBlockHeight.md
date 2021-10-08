@@ -12,7 +12,7 @@ Gets the nep17 transfer by the block height.
 
 ### Example
 ```shell
-curl --location --request POST 'https://testneofura.ngd.network:444' \
+curl --location --request POST 'http://127.0.0.1:1926' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "jsonrpc":"2.0",
